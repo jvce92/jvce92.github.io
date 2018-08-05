@@ -79,13 +79,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
-  employer         :
-  googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            :
+  name             : "Joao V. C. Evangelista"
+  avatar           : "jv_profile.png"
+  bio              : "Ph.D. Student in Electrical Engineering (focus in wireless communications) at École de Techonologie Supérieure"
+  location         : "Montreal, QC"
+  employer         : "https://www.etsmtl.ca"
+  googlescholar    : "https://scholar.google.ca/citations?user=ahKB2_UAAAAJ&hl=en"
+  email            : "jvce92@hotmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -93,19 +93,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "jvce92"
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/joaovcevangelista/"
+  orcid            : "https://orcid.org/0000-0003-3842-8662"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "https://stackoverflow.com/users/8132700/jvce92"
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "vevangelista92"
   vine             :
   weibo            :
   xing             :
