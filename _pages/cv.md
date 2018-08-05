@@ -78,6 +78,8 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+
+[Download](https://jvce92.github.io/files/Academic_Resume.pdf)
   <!-- 
 Service and leadership
 ======
