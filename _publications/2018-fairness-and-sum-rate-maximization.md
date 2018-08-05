@@ -1,7 +1,7 @@
 ---
 title: "Fairness and Sum-Rate Maximization via Joint Channel and Power Allocation in Uplink SCMA Networks"
 collection: publications
-permalink: /publication/2016-spectral-analysis-of-a-chaotic
+permalink: /publication/2018-fairness-and-sum-rate-maximization
 excerpt: 'In this work, we consider a sparse code multiple access uplink network, where $ J $ users simultaneously transmit data over $ K $ subcarriers, such that $ J> K $, with a constraint on the power transmitted by each user. To jointly optimize the codebook assignment and the transmitted power per subcarrier, two new iterative algorithms are proposed, the first one aims to maximize the sum-rate (Max-SR) of the network, while the second aims to maximize the minimum rate (Max-Min). In both cases, the optimization problem is of the mixed-integer nonlinear programming (MINLP) type, with non-convex objective functions. To address this issues, we employ an alternating optimization framework, where the codebook allocation problem is decoupled from the power allocation into two subproblems, and they are solved in an iterative alternating fashion. These subproblems are non-convex, therefore, we employ a sequential convex programming (SCP) method to solve them. An analysis of the convergence of the algorithms is provided. A comparison of the sum-rate and Jain's fairness index of the novel algorithms with three other algorithms proposed in the literature is presented for varying power budgets. The Max-SR algorithm outperforms the others in the sum-rate sense, while the Max-Min outperforms them in the fairness sense, achieving near perfect fairness.'
 date: 2018-05-29
 venue: 'arXiv preprint arXiv:1805.11722'
