@@ -48,7 +48,7 @@ Design of a feedback envelope power amplifier to operate on microwave frequencie
   * Python 
   * Matlab
   * Data structures and algorithms 
-  * Machine learning/deep learning frameworks: sklearn, Keras and Tensorflow.
+  * Machine learning/deep learning frameworks: sklearn, PyTorch, Keras and Tensorflow.
 * Telecommunications: 
   * Physical layer security 
   * Radio resource management 
@@ -84,5 +84,5 @@ Design of a feedback envelope power amplifier to operate on microwave frequencie
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-[Download](https://jvce92.github.io/files/Academic_Resume.pdf)
+[Download](https://jvce92.github.io/files/jv_evangelista_resume.pdf)
 
