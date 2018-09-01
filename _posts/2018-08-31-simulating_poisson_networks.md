@@ -13,7 +13,8 @@ tags:
 
 When I first started my Ph.D. I learned about modeling large wireless network using point processes. They allow you to obtain tractable mathematical models that scale well with the size of the network. The most commonly used model in wireless networks is the homogeneous Poisson point proces (PPP), because it has a reasonable assumption about the network geometry and leads to tractable models. To briefly introduce the concept, say we have a set of two dimensional points $$\phi = \{u_1, \cdots\}$$ randomly distributed in $$\mathbb{R}^2$$, such that for every compact set $$B \in \mathbb{R}^2$$. The set of points $$\phi$$ is a HPPP if: 
 
-* The number of points of $$\phi$$ in $$B$$ (denoted by $$N(B)$$) are poisson distributed with rate $$\lambda |B|$$, where $$\lambda$$ is the intensity of the HPPP and $$|B|$$ is the are of $$B$$.
+* Tthe number of points of $$\phi$$ in $$B$$ (denoted by $$N(B)$$) are poisson distributed with rate $$\lambda |B|$$, where $$\lambda$$ is the intensity of the HPPP and $$|B|$$ is the are of $$B$$.
+
 * If $$B_1$$,$$B_2$$, ..., $$B_m$$ are all disjoint sets in $$\mathbb{R}^2$$, then $$N(B_1)$$,$$N(B_2)$$, ..., $$N(B_m)$$ are independent random variables
 
 For more details on the theory behind this I recommending reading the book [*Stochastic Geometry for Wireless Networks*](https://www.amazon.ca/Stochastic-Geometry-Wireless-Networks-Professor/dp/1107014697/ref=sr_1_1?ie=UTF8&qid=1535753229&sr=8-1&keywords=stochastic+geometry+for+wireless+networks), by Martin Haenggi.
@@ -71,7 +72,7 @@ D = (\mathbf{\Phi_1} \mathbf{1}_{2 \times 1})^T \mathbf{1}_{1 \times N_2} + (\ma
 \end{equation}
 $$
 
-tWhere $$\mathbf{\Phi_1}$$ and $$\mathbf{\Phi_2}$$ are a $$N_1 \times 2$$ and a $$N_2 \times 2$$ matrix respectively, where each row is a point from $$\phi_1$$ and $$\phi_2$$. The vector/matrix $$\mathbf{1}_{i \times j}$$ is a $$i \times j$$ vector/matrix. This expression involves two matrix-vector multiplications, two inner products and one matrix-matrix multiplication. It might seem that the resulting complexity of this second algorithm is larger than the naive one, but processors and linear algebra libraries are optimized by experienced engineers to execute linear algebra operations really fast, which results in a smaller running time than the naive algorithm. 
+Where $$\mathbf{\Phi_1}$$ and $$\mathbf{\Phi_2}$$ are a $$N_1 \times 2$$ and a $$N_2 \times 2$$ matrix respectively, where each row is a point from $$\phi_1$$ and $$\phi_2$$. The vector/matrix $$\mathbf{1}_{i \times j}$$ is a $$i \times j$$ vector/matrix. This expression involves two matrix-vector multiplications, two inner products and one matrix-matrix multiplication. It might seem that the resulting complexity of this second algorithm is larger than the naive one, but processors and linear algebra libraries are optimized by experienced engineers to execute linear algebra operations really fast, which results in a smaller running time than the naive algorithm. 
 
 A sample function that calculates the distance by this method is shown below
 
