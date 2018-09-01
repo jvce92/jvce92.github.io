@@ -325,3 +325,8 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+
+.markdown-cell .ace_line {
+  font-family: "DejaVu Sans Mono";
+  font-size: 18px;
+}
