@@ -65,13 +65,13 @@ D_{\mathbf{x}, \mathbf{y}} = \sqrt{(x_1 - y_1)^2 + (x_2 - y_2)^2} = \sqrt{x_1^2 
 
 We can obtain a matrix $$\mathbf{D} \in \mathbb{R}^{N_1 \times N_2}$$ where each coordinate $$D_{i, j}$$ is the distance between the $$i$$-th point in $$\phi_1$$ to the $$j$$-th point in $$\phi_2$$ by
 
-\[
+$$
 \begin{equation}
 D = (\mathbf{\Phi_1} \mathbf{1}_{2 \times 1})^T \mathbf{1}_{1 \times N_2} + (\mathbf{\Phi_2} \mathbf{1}_{2 \times 1})^T \mathbf{1}_{1 \times N_1} - 2 \mathbf{\Phi_1} \mathbf{\Phi_2}^T
 \end{equation}
-\]
+$$
 
-Where $$\mathbf{\Phi_1}$$ and $$\mathbf{\Phi_2}$$ are a $$N_1 \times 2$$ and a $$N_2 \times 2$$ matrix respectively, where each row is a point from $$\phi_1$$ and $$\phi_2$$. The vector/matrix $$\mathbf{1}_{i \times j}$$ is a $$i \times j$$ vector/matrix. This expression involves two matrix-vector multiplications, two inner products and one matrix-matrix multiplication. It might seem that the resulting complexity of this second algorithm is larger than the naive one, but processors and linear algebra libraries are optimized by experienced engineers to execute linear algebra operations really fast, which results in a smaller running time than the naive algorithm. 
+tWhere $$\mathbf{\Phi_1}$$ and $$\mathbf{\Phi_2}$$ are a $$N_1 \times 2$$ and a $$N_2 \times 2$$ matrix respectively, where each row is a point from $$\phi_1$$ and $$\phi_2$$. The vector/matrix $$\mathbf{1}_{i \times j}$$ is a $$i \times j$$ vector/matrix. This expression involves two matrix-vector multiplications, two inner products and one matrix-matrix multiplication. It might seem that the resulting complexity of this second algorithm is larger than the naive one, but processors and linear algebra libraries are optimized by experienced engineers to execute linear algebra operations really fast, which results in a smaller running time than the naive algorithm. 
 
 A sample function that calculates the distance by this method is shown below
 
