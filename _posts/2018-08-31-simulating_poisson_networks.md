@@ -13,9 +13,9 @@ tags:
 
 When I first started my Ph.D. I learned about modeling large wireless network using point processes. They allow you to obtain tractable mathematical models that scale well with the size of the network. The most commonly used model in wireless networks is the homogeneous Poisson point proces (PPP), because it has a reasonable assumption about the network geometry and leads to tractable models. To briefly introduce the concept, say we have a set of two dimensional points $$\phi = \{u_1, \cdots\}$$ randomly distributed in $$\mathbb{R}^2$$, such that for every compact set $$B \in \mathbb{R}^2$$. The set of points $$\phi$$ is a HPPP if: 
 
-* Tthe number of points of $$\phi$$ in $$B$$ (denoted by $$N(B)$$) are poisson distributed with rate $$\lambda |B|$$, where $$\lambda$$ is the intensity of the HPPP and $$|B|$$ is the are of $$B$$.
+- The number of points of $$\phi$$ in $$B$$ (denoted by $$N(B)$$) are Poisson distributed with rate $$\lambda |B|$$, where $$\lambda$$ is the intensity of the HPPP and $$|B|$$ is the are of $$B$$.
 
-* If $$B_1$$,$$B_2$$, ..., $$B_m$$ are all disjoint sets in $$\mathbb{R}^2$$, then $$N(B_1)$$,$$N(B_2)$$, ..., $$N(B_m)$$ are independent random variables
+- If $$B_1$$,$$B_2$$, ..., $$B_m$$ are all disjoint sets in $$\mathbb{R}^2$$, then $$N(B_1)$$,$$N(B_2)$$, ..., $$N(B_m)$$ are independent random variables
 
 For more details on the theory behind this I recommending reading the book [*Stochastic Geometry for Wireless Networks*](https://www.amazon.ca/Stochastic-Geometry-Wireless-Networks-Professor/dp/1107014697/ref=sr_1_1?ie=UTF8&qid=1535753229&sr=8-1&keywords=stochastic+geometry+for+wireless+networks), by Martin Haenggi.
 
