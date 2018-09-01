@@ -13,7 +13,7 @@ tags:
 
 When I first started my Ph.D. I learned about modeling large wireless network using point processes. They allow you to obtain tractable mathematical models that scale well with the size of the network. The most commonly used model in wireless networks is the homogeneous Poisson point proces (PPP), because it has a reasonable assumption about the network geometry and leads to tractable models. To briefly introduce the concept, say we have a set of two dimensional points $$\phi = \{u_1, \cdots\}$$ randomly distributed in $$\mathbb{R}^2$$, such that for every compact set $$B \in \mathbb{R}^2$$. The set of points $$\phi$$ is a HPPP if: 
 
-- The number of points of
+- The number of points of $\phi$ in $B$ (denoted by $N(B)$) are Poisson distributed with rate 
 <!-- - The number of points of $$\phi$$ in $$B$$ (denoted by $$N(B)$$) are Poisson distributed with rate $$\lambda |B|$$, where $$\lambda$$ is the intensity of the HPPP and $$|B|$$ is the are of $$B$$. -->
 
 - If $$B_1$$,$$B_2$$, ..., $$B_m$$ are all disjoint sets in $$\mathbb{R}^2$$, then $$N(B_1)$$,$$N(B_2)$$, ..., $$N(B_m)$$ are independent random variables
